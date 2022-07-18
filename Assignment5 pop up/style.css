@@ -1,0 +1,21 @@
+#box {
+    background-color: rgb(241, 100, 6);
+    height: 500px;
+    width: 800px;
+    visibility: hidden;
+}
+
+body{
+    background-color: rgb(4, 169, 114);
+}
+h3 {
+    margin-left: 45px;
+}
+.head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+#box.show{
+    visibility: visible;
+}
